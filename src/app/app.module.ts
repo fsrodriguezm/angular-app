@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { UsernameComponent } from './username/username.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    UsernameComponent
+    UsernameComponent,
+    DisplayComponent    
   ],
   imports: [
     BrowserModule,
